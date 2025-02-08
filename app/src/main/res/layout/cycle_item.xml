@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_centerVertical="true"
+            android:id="@+id/cyc"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cId"
+            android:text="Cycle Id:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/cyc"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cid"
+            android:text="@string/id"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#000"
+
+            android:layout_toRightOf="@+id/cyc"
+            android:layout_marginLeft="100dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Color"
+            android:text="Cycle Color:"
+
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/cyc"
+            android:layout_below="@+id/cId"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/color"
+            android:text="@string/color"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/cyc"
+            android:layout_below="@+id/cid"
+            android:layout_marginLeft="100dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/location"
+            android:text="Location:"
+
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/cyc"
+            android:layout_below="@+id/Color"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Location"
+            android:text="@string/location"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@+id/cyc"
+            android:layout_below="@+id/color"
+            android:layout_marginLeft="100dp" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

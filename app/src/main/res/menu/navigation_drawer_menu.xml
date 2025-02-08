@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_cycles"
+            android:icon="@drawable/baseline_add_circle_24"
+            android:title="Add Cycles"/>
+        <item
+            android:id="@+id/damaged_cycles"
+            android:icon="@drawable/baseline_do_not_disturb_24"
+            android:title="Damaged Cycles"/>
+        <item
+            android:id="@+id/qr_code_scanner"
+            android:icon="@drawable/baseline_qr_code_scanner_24"
+            android:title="QrCode Scanner"/>
+
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="LogOut"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "648437682930",
+    "project_id": "ebike-7c29c",
+    "storage_bucket": "ebike-7c29c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648437682930:android:9e08a6a8e650e6b7f4766b",
+        "android_client_info": {
+          "package_name": "hcl.esg.ebike.application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwi7JjuaXsDSbV3zaG1ek-iN0R0rtSoRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
